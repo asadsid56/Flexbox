@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: #eee;
+    width: 600px;
+    height: 200px;
+    margin: 50px auto 0;
+    padding: 10px;
+    border: 3px solid #000;
+    display: flex;
+}
+.items{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.item1 {
+    background-color: orangered;
+    order: 4;
+}
+.item2 {
+    background-color: yellowgreen;
+    order: 3;
+}
+.item3 {
+    background-color: mediumpurple;
+    order: 2;
+}
+.item4 {
+    background-color: hotpink;
+    order: 1;
+}
